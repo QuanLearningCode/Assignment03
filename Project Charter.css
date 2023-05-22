@@ -1,0 +1,257 @@
+@media screen and (min-width: 1025px) {
+  h2 {
+    color: #364fc7;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #adb5bd;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  i {
+    font-size: 28px;
+  }
+
+  .card:first-child .card-title a {
+    font-size: 20px;
+    font-weight: 600;
+    height: 50%;
+    margin-bottom: 5px;
+  }
+
+  .project-charter-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card:first-child,
+  .card:nth-child(4) {
+    grid-column: span 2;
+  }
+
+  .card:nth-child(3) {
+    grid-row: span 2;
+  }
+
+  .card:nth-child(3) .card-text {
+    padding-right: 0;
+    gap: 20px;
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .card-text {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .dashed-border {
+    border-bottom: 1px dashed #1c7ed6;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .project-number {
+    background-color: #7950f2;
+    color: #f8f9fa;
+    font-size: 24px;
+    font-weight: 600;
+    width: 65px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e03131;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  h2 {
+    color: #364fc7;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #adb5bd;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  i {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .card:first-child .card-title a {
+    font-size: 20px;
+    font-weight: 600;
+    height: 50%;
+    margin-bottom: 0px;
+  }
+
+  .project-charter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card:nth-child(2) {
+    order: 2;
+  }
+
+  .card:nth-child(5) {
+    order: 2;
+  }
+
+  .card:nth-child(3) {
+    order: 3;
+  }
+
+  .card:nth-child(3) .card-text {
+    padding-right: 0;
+    gap: 20px;
+  }
+
+  .card:first-child .card-text div:first-child,
+  .card:nth-child(2) .card-text div:first-child,
+  .card:nth-child(5) .card-text div:first-child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .card:nth-child(4) .card-text div:first-child {
+    margin-bottom: 30px;
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .card-text {
+    padding: 10px 20px;
+  }
+
+  .dashed-border {
+    border-bottom: 1px dashed #1c7ed6;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .project-number {
+    background-color: #7950f2;
+    color: #f8f9fa;
+    font-size: 24px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e03131;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h2 {
+    color: #364fc7;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #adb5bd;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  i {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .card:first-child .card-title a {
+    font-size: 18px;
+    font-weight: 600;
+    height: 50%;
+    margin-bottom: 4px;
+  }
+
+  .project-charter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .card:nth-child(2) {
+    order: 2;
+  }
+
+  .card:nth-child(5) {
+    order: 2;
+  }
+
+  .card:nth-child(3) {
+    order: 3;
+  }
+
+  .card:nth-child(3) .card-text {
+    padding-right: 0;
+    gap: 20px;
+  }
+
+  .card:first-child .card-text div:first-child,
+  .card:nth-child(2) .card-text div:first-child,
+  .card:nth-child(5) .card-text div:first-child {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .card:nth-child(4) .card-text div:first-child {
+    margin-bottom: 30px;
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .card-text {
+    padding: 10px 20px;
+  }
+
+  .dashed-border {
+    border-bottom: 1px dashed #1c7ed6;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .project-number {
+    background-color: #7950f2;
+    color: #f8f9fa;
+    font-size: 24px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e03131;
+    border-radius: 50%;
+  }
+}
