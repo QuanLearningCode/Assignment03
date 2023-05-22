@@ -54,13 +54,12 @@
   /* --------------------------------------- */
 
   .header-inner {
-    position: relative;
     height: 75vh;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         rgba(33, 37, 41, 0.7),
         rgba(33, 37, 41, 0.7)
       ),
-      url("../images/banner.jpg");
+      url("../images/banner.jpg"); */
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -261,11 +260,11 @@
 
   .header-inner {
     height: 80vh;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         rgba(33, 37, 41, 0.7),
         rgba(33, 37, 41, 0.7)
       ),
-      url("../images/banner.jpg");
+      url("../images/banner.jpg"); */
     background-size: 100vw 80vh;
     display: flex;
     justify-content: center;
@@ -465,11 +464,11 @@
 
   .header-inner {
     height: 50vh;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         rgba(33, 37, 41, 0.7),
         rgba(33, 37, 41, 0.7)
       ),
-      url("../images/banner.jpg");
+      url("../images/banner.jpg"); */
     background-size: 100vw 50vh;
     display: flex;
     justify-content: center;
